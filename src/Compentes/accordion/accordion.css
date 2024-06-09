@@ -1,0 +1,60 @@
+.app-accordion{
+    transform: translateY(-370px);
+    margin-left: 50px;
+    z-index: 99 !important;
+    position: absolute;
+    overflow: hidden;
+}
+ul li{
+    list-style: none;
+    padding: 6px 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(165, 97, 42);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-left: -20px;
+}
+ul li a{
+    list-style: none;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+    /* font-weight: bold; */
+    letter-spacing: 3px;
+    font-size: 18px;
+    width: 100%;
+    font-family: "Sriracha", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+ul li:hover{
+    background-color: rgb(211, 234, 255);
+    color: rgb(255, 0, 212) !important;
+    
+}
+ul li a:hover{
+    color: rgb(255, 0, 179) !important;
+}
+
+.accordion-item{
+    background-color:rgb(165, 97, 42)!important;
+    color: red !important;
+
+}
+.form-control{
+    background-color: aliceblue !important;
+}
+@media (min-width: 1024px) and (max-width: 1400px){
+    .app-accordion{
+        transform: translateY(-340px);
+        margin-left: 50px;
+        z-index: 99 !important;
+        position: absolute;
+    }
+}
+@media (max-width: 1024px){
+    .app-accordion{
+        display: none;
+    }
+}

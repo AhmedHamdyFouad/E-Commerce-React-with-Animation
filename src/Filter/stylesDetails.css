@@ -1,0 +1,64 @@
+.image-app-container {
+  margin-top: 50px !important;
+  margin-bottom: 80px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0px;
+  width: 35vw;
+}
+.home-title-right {
+  border-left: 1px solid #e5e5e5;
+  padding-left: 20px;
+}
+.row-column-cart {
+  display: flex;
+  margin-left: -20px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+}
+.tab {
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: brown;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  user-select: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.active {
+  background-color: rgb(255, 128, 0);
+}
+.tab-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.tab-content {
+  width: 80vw;
+  margin: auto;
+}
+@media (max-width: 1600px) {
+  .img-app-move {
+    margin-left: -50px !important;
+  }
+}
+@media (max-width: 1400px) {
+  .img-app-move {
+    margin-left: -50px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .img-app-move {
+    margin-left: -100px !important;
+  }
+}
+@media (max-width: 768px) {
+  .img-app-move {
+    margin-left: -50px !important;
+  }
+}

@@ -1,0 +1,127 @@
+.line {
+  margin-top: 300px !important;
+}
+.coloring,
+.coloring2 {
+  font-family: "Sriracha", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(255, 0, 221);
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.app-coloring {
+  display: flex;
+}
+.headtwo {
+  width: 300px;
+}
+.mySwiper2 {
+  width: 90vw;
+  height: 470px;
+  margin: 0 auto 20px auto;
+}
+/* .myswiperclone{
+  height: 450px !important;
+} */
+.app-swiper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-child {
+  line-height: 30px;
+}
+.swiper-slide {
+  cursor: pointer;
+}
+
+.swiper-slide i {
+  color: rgb(255, 200, 0);
+}
+.hiddn i {
+  color: rgb(255, 170, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 30px 0px 15px 0px;
+  font-size: 20px;
+}
+/* .hiddn i:hover {
+  color: rgb(255, 0, 0) !important;
+} */
+.hiddn {
+  margin: -160px 0 0 0;
+  opacity: 0;
+  transition: 0.6s;
+}
+.hiddn:hover{
+  opacity: 1;
+}
+.swiper-slide:hover .hiddn {
+  opacity: 1;
+  transition: 0.5s;
+}
+.content-homeone {
+  margin-top: 40px;
+}
+.swiper-slide .img {
+  max-width: 170px;
+  margin-left: 20px;
+}
+.btnn {
+  border: none;
+  background-color: rgb(165, 97, 42);
+  /* opacity: 0; */
+  font-family: "Sriracha", cursive;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 40px;
+  transition: 0.3s;
+}
+.btnn:hover {
+  /* transform: scale(1.06); */
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+  background-color: rgb(255, 0, 212);
+  color: rgb(255, 255, 255);
+}
+.swiper-pagination-bullet {
+  background-color: rgb(255, 0, 149);
+}
+@media (max-width: 480px) {
+  .swiper-slide {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* width:60vw !important; */
+    flex-direction: column;
+    /* margin: 0 50px; */
+  }
+  .swiper-pagination-bullet {
+    opacity: 0;
+  }
+  .content-child:nth-child(1) {
+    width: 80vw;
+  }
+  .app-coloring {
+    justify-content: flex-start;
+    display: flex;
+    margin-left: -50px;
+  }
+  .hiddn i {
+    align-self: flex-end;
+    margin-left: 230px;
+  }
+}

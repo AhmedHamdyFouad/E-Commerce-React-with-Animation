@@ -1,0 +1,54 @@
+.appImg {
+  background-color: rgb(165, 97, 42);
+  box-shadow: 2px 6px 6px rgb(231, 231, 231);
+  padding: 13px 7%;
+  margin-left: -300px;
+  color: rgb(251, 255, 0);
+  overflow: hidden;
+}
+.content .left {
+  width: auto;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h{
+  color: rgb(60, 255, 0);
+}
+
+/*   */
+.display {
+  display: none;
+  /* transform: translateX(200px); */
+}
+.right {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.right div {
+  margin: 0 10px;
+}
+
+@media (max-width: 1200px) {
+  .none {
+    display: none;
+  }
+  .left .h {
+    display: none;
+  }
+  .convert {
+    display: none;
+  }
+  .display {
+    display: block;
+  
+  }
+}
+@media (max-width: 1024px) {
+  .display{
+    transform: translateX(300px);
+  }
+}

@@ -1,0 +1,8 @@
+@media (max-width: 1024px) {
+  .hidden-about {
+    flex-direction: column;
+  }
+  .hidden-about img {
+    width: 80vw !important;
+  }
+}
